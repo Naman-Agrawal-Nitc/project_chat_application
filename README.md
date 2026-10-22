@@ -1,21 +1,60 @@
-# Realtime Chat Application
+# Real-Time Chat Application
 
-Realtime Chat Application is being sponsored by the following tool; please help to support us by taking a look and signing up to a free trial.
+A full-stack real-time messaging application built with React and Node.js, using Socket.IO for bidirectional communication between clients and the server.
 
-<a href="https://tracking.gitads.io/?repo=project_chat_application">
- <img src="https://images.gitads.io/project_chat_application" alt="GitAds"/> 
-</a>
+## Tech Stack
 
-### [Live Site](https://realtime-chat-application.netlify.com)
+- **Frontend:** React.js
+- **Backend:** Node.js, Express.js
+- **Real-Time Communication:** Socket.IO
 
-![Chat Application](https://i.ytimg.com/vi/ZwFA3YMfkoc/maxresdefault.jpg)
+## Overview
 
-## Introduction
-This is a code repository for the corresponding video tutorial. 
+The application demonstrates real-time communication using WebSockets through Socket.IO. The client provides the user interface for sending and receiving messages, while the server handles communication between connected clients.
 
-In this video, we will create a full Realtime Chat Application. We're going to use  React on the front end, with NodeJS + Socket.io web socket library on the back end. 
+## Getting Started
 
-By the end of this video, you will have a strong understanding of how to send and receive messages using web sockets and Socket.io to make any real-time application.
+### Prerequisites
 
-Setup:
-- run ```npm i && npm start``` for both client and server side to start the development server
+- Node.js
+- npm
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Naman-Agrawal-Nitc/project_chat_application.git
+cd project_chat_application
+```
+
+### Run the Application
+
+Start the backend server in one terminal:
+
+```bash
+cd server
+npm install
+npm start
+```
+
+Start the frontend in another terminal:
+
+```bash
+cd client
+npm install
+npm start
+```
+
+If the frontend or backend uses a different startup command in its `package.json`, use the configured script instead.
+
+## Key Concepts
+
+- Real-time, bidirectional communication
+- Socket.IO event-based messaging
+- Client-server communication
+- React frontend integration with a Node.js backend
+
+## License
+
+Refer to the repository for licensing information.
